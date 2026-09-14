@@ -1,0 +1,11 @@
+# Sensitive config - contains API keys / passwords, never commit these
+includes/khalti_config.php
+includes/mail_config.php
+
+# One-time admin seed script - safe to keep locally, but no reason to track it
+database/seed_admin.php
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
